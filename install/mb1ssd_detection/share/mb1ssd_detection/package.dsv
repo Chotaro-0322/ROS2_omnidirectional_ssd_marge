@@ -1,0 +1,6 @@
+source;share/mb1ssd_detection/hook/pythonpath.ps1
+source;share/mb1ssd_detection/hook/pythonpath.dsv
+source;share/mb1ssd_detection/hook/pythonpath.sh
+source;share/mb1ssd_detection/hook/ament_prefix_path.ps1
+source;share/mb1ssd_detection/hook/ament_prefix_path.dsv
+source;share/mb1ssd_detection/hook/ament_prefix_path.sh

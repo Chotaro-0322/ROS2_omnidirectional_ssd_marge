@@ -1,0 +1,3 @@
+[console_scripts]
+mb1ssd_detection = mb1ssd_detection.ros2_panorama_detection:main
+

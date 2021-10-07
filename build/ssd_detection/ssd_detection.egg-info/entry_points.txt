@@ -1,0 +1,3 @@
+[console_scripts]
+ssd_detection = ssd_detection.ros2_panorama_detection:main
+

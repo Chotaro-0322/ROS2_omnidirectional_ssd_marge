@@ -1,0 +1,28 @@
+[0.670s] Invoking command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection': PS1=(roswork) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log --single-version-externally-managed
+[0.895s] /home/seniorcar/.local/lib/python3.6/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.895s]   % (opt, underscore_opt)
+[0.895s] /home/seniorcar/.local/lib/python3.6/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.895s]   % (opt, underscore_opt)
+[0.919s] running egg_info
+[0.920s] writing ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/PKG-INFO
+[0.920s] writing dependency_links to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/dependency_links.txt
+[0.921s] writing entry points to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/entry_points.txt
+[0.921s] writing requirements to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/requires.txt
+[0.921s] writing top-level names to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/top_level.txt
+[0.923s] reading manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+[0.924s] writing manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+[0.924s] running build
+[0.924s] running build_py
+[0.925s] copying mb1ssd_detection/utils/predictor.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+[0.925s] running install
+[0.926s] running install_lib
+[0.927s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/predictor.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+[0.928s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/predictor.py to predictor.cpython-36.pyc
+[0.930s] running install_data
+[0.930s] running install_egg_info
+[0.932s] removing '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info' (and everything under it)
+[0.932s] Copying ../../build/mb1ssd_detection/mb1ssd_detection.egg-info to /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info
+[0.933s] running install_scripts
+[0.951s] Installing mb1ssd_detection script to /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/mb1ssd_detection
+[0.951s] writing list of installed files to '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log'
+[0.980s] Invoked command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection' returned '0': PS1=(roswork) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} _OLD_VIRTUAL_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log --single-version-externally-managed
