@@ -1,0 +1,70 @@
+running egg_info
+creating ../../build/mb1ssd_detection/mb1ssd_detection.egg-info
+writing ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/PKG-INFO
+writing dependency_links to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/dependency_links.txt
+writing entry points to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/entry_points.txt
+writing requirements to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/requires.txt
+writing top-level names to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/top_level.txt
+writing manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+reading manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+writing manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+copying mb1ssd_detection/mb1_train.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+copying mb1ssd_detection/ros2_panorama_detection.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+copying mb1ssd_detection/eval.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+copying mb1ssd_detection/config.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+copying mb1ssd_detection/ros2_img_detection.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+copying mb1ssd_detection/__init__.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/evalDataset.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/prior_box.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/evalTransform.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/predictor.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/__init__.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/box_utils.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+copying mb1ssd_detection/utils/mobile_model.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils
+running install
+running install_lib
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/mb1_train.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/evalDataset.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/prior_box.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/evalTransform.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/predictor.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/__init__.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/box_utils.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/utils/mobile_model.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/ros2_panorama_detection.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/eval.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/config.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/ros2_img_detection.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/__init__.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/mb1_train.py to mb1_train.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/evalDataset.py to evalDataset.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/prior_box.py to prior_box.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/evalTransform.py to evalTransform.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/predictor.py to predictor.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/box_utils.py to box_utils.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/utils/mobile_model.py to mobile_model.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/ros2_panorama_detection.py to ros2_panorama_detection.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/eval.py to eval.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/config.py to config.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/ros2_img_detection.py to ros2_img_detection.cpython-36.pyc
+byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/share/ament_index
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/share/ament_index/resource_index
+creating /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/share/ament_index/resource_index/packages
+copying resource/mb1ssd_detection -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/share/ament_index/resource_index/packages
+copying package.xml -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/share/mb1ssd_detection
+running install_egg_info
+Copying ../../build/mb1ssd_detection/mb1ssd_detection.egg-info to /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info
+running install_scripts
+Installing mb1ssd_detection script to /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/mb1ssd_detection
+writing list of installed files to '/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/install.log'
