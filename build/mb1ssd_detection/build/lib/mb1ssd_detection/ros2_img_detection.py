@@ -42,7 +42,7 @@ class Object_Detection(Node):
         self.net.eval()
         self.net.to(torch.device("cuda:0"))
 
-        net_weights = torch.load("/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/src/mb1ssd_detection/mb1ssd_detection/weight/mb1-ssd-complete3.pth",
+        net_weights = torch.load("/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection/mb1ssd_detection/weight/mb1-ssd-complete3.pth",
                                 map_location={'cuda:0': 'cpu'})
 
         self.net.load_state_dict(net_weights)
@@ -69,15 +69,24 @@ class Object_Detection(Node):
     def publish_process(self, data):
         cv_img = self.bridge = self._bridge.imgmsg_to_cv2(data, 'bgr8')
         complete_img, bbox = self.detection_process(cv_img)
+        # リストを整形
+        # bbox_sort = [box for box in bbox if len(bbox)!=0]
+        bbox_sort = []
+        for box in bbox:
+            if len(box) != 0:
+                for bx in box:
+                    bbox_sort.append([float(b) for b in bx ])
+        print("bbox_sort : ", bbox_sort)
+
         # 空のリスト部分を削除
-        bbox = [[float(bbox[y][x]) for x in range(len(bbox[y]))] for y in range(len(bbox)) if len(bbox[y]) != 0]
+        # bbox = [[float(bbox[y][x]) for x in range(len(bbox[y]))] for y in range(len(bbox)) if len(bbox[y]) != 0]
         # for y in range(len(bbox)):
         #     if len(bbox[y]) != 0:
         #         for x in range(len(bbox[y])):
         #             print("bbox[y][x] : ", bbox[y][x])
-        print("bbox is ", bbox)
+        #print("bbox is ", bbox)
         # msgに格納
-        #self._box_msg.data = bbox
+        self._box_msg.data = bbox_sort
         # print("complete_img : ", complete_img.shape)
         self._image_pub.publish(self._bridge.cv2_to_imgmsg(complete_img, "bgr8"))
         #self._coord_pub.publish(self._box_msg)
@@ -102,7 +111,7 @@ class Object_Detection(Node):
             box, labels, score = self.Predictor.predict(score, box, 100, 0.4)
             # img = img[:, :, [0, 1, 2]]
             # print("box :", box.squeeze())
-            boxes_list.append(box.squeeze().tolist())
+            boxes_list.append(box.tolist())
             score_list.append(score.tolist())
 
 
@@ -132,7 +141,8 @@ class Object_Detection(Node):
                     for box in boxes:
                         img = cv2.rectangle(img, (np.int(box[0] + 1 * width/4), np.int(box[1])), (np.int(box[2] + 1 * width/4), np.int(box[3])), (255, 0, 0), 5)
                 elif boxes and i == 1:
-                        img = cv2.rectangle(img, (np.int(boxes[0] + 2 * width/4), np.int(boxes[1])), (np.int(boxes[2] + 2 * width/4), np.int(boxes[3])), (255, 0, 0), 5)
+                    for box in boxes:
+                        img = cv2.rectangle(img, (np.int(box[0] + 2 * width/4), np.int(box[1])), (np.int(box[2] + 2 * width/4), np.int(box[3])), (255, 0, 0), 5)
         else:
             for i, boxes in enumerate(boxes_list):
                     img = cv2.rectangle(img, (np.int(boxes[0] + i * width/4), np.int(boxes[1])), (np.int(boxes[2] + i * width/4), np.int(boxes[3])), (255, 0, 0), 5)

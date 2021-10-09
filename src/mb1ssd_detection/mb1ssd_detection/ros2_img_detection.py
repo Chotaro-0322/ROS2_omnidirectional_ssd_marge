@@ -42,7 +42,7 @@ class Object_Detection(Node):
         self.net.eval()
         self.net.to(torch.device("cuda:0"))
 
-        net_weights = torch.load("/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/src/mb1ssd_detection/mb1ssd_detection/weight/mb1-ssd-complete3.pth",
+        net_weights = torch.load("/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection/mb1ssd_detection/weight/mb1-ssd-complete3.pth",
                                 map_location={'cuda:0': 'cpu'})
 
         self.net.load_state_dict(net_weights)
@@ -75,18 +75,18 @@ class Object_Detection(Node):
         for box in bbox:
             if len(box) != 0:
                 for bx in box:
-                    bbox_sort.append(bx)
+                    bbox_sort.append([float(b) for b in bx ])
         print("bbox_sort : ", bbox_sort)
 
         # 空のリスト部分を削除
-        bbox = [[float(bbox[y][x]) for x in range(len(bbox[y]))] for y in range(len(bbox)) if len(bbox[y]) != 0]
+        # bbox = [[float(bbox[y][x]) for x in range(len(bbox[y]))] for y in range(len(bbox)) if len(bbox[y]) != 0]
         # for y in range(len(bbox)):
         #     if len(bbox[y]) != 0:
         #         for x in range(len(bbox[y])):
         #             print("bbox[y][x] : ", bbox[y][x])
-        print("bbox is ", bbox)
+        #print("bbox is ", bbox)
         # msgに格納
-        # self._box_msg.data = bbox
+        self._box_msg.data = bbox_sort
         # print("complete_img : ", complete_img.shape)
         self._image_pub.publish(self._bridge.cv2_to_imgmsg(complete_img, "bgr8"))
         #self._coord_pub.publish(self._box_msg)

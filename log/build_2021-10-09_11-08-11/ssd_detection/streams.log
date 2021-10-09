@@ -1,0 +1,61 @@
+[0.650s] Invoking command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/install.log --single-version-externally-managed
+[0.869s] /home/seniorcar/.local/lib/python3.6/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.869s]   % (opt, underscore_opt)
+[0.869s] /home/seniorcar/.local/lib/python3.6/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.869s]   % (opt, underscore_opt)
+[0.894s] running egg_info
+[0.896s] creating ../../build/ssd_detection/ssd_detection.egg-info
+[0.896s] writing ../../build/ssd_detection/ssd_detection.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/ssd_detection/ssd_detection.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/ssd_detection/ssd_detection.egg-info/entry_points.txt
+[0.897s] writing requirements to ../../build/ssd_detection/ssd_detection.egg-info/requires.txt
+[0.897s] writing top-level names to ../../build/ssd_detection/ssd_detection.egg-info/top_level.txt
+[0.897s] writing manifest file '../../build/ssd_detection/ssd_detection.egg-info/SOURCES.txt'
+[0.899s] reading manifest file '../../build/ssd_detection/ssd_detection.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/ssd_detection/ssd_detection.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.901s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build
+[0.901s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib
+[0.901s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection
+[0.901s] copying ssd_detection/ros2_panorama_detection.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection
+[0.901s] copying ssd_detection/ros2_img_detection.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection
+[0.901s] copying ssd_detection/__init__.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection
+[0.901s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils
+[0.901s] copying ssd_detection/utils/ssd_model.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils
+[0.902s] copying ssd_detection/utils/data_augumentation.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils
+[0.902s] copying ssd_detection/utils/match.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils
+[0.902s] copying ssd_detection/utils/__init__.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils
+[0.902s] copying ssd_detection/utils/ssd_predict_show_split8.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils
+[0.902s] running install
+[0.902s] running install_lib
+[0.903s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection
+[0.903s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/ros2_panorama_detection.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection
+[0.903s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/ros2_img_detection.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection
+[0.904s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/__init__.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection
+[0.904s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils
+[0.904s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils/ssd_model.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils
+[0.904s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils/data_augumentation.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils
+[0.904s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils/match.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils
+[0.905s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils/__init__.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils
+[0.905s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build/lib/ssd_detection/utils/ssd_predict_show_split8.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils
+[0.905s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/ros2_panorama_detection.py to ros2_panorama_detection.cpython-36.pyc
+[0.905s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/ros2_img_detection.py to ros2_img_detection.cpython-36.pyc
+[0.905s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/__init__.py to __init__.cpython-36.pyc
+[0.906s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils/ssd_model.py to ssd_model.cpython-36.pyc
+[0.909s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils/data_augumentation.py to data_augumentation.cpython-36.pyc
+[0.912s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils/match.py to match.cpython-36.pyc
+[0.913s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils/__init__.py to __init__.cpython-36.pyc
+[0.913s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection/utils/ssd_predict_show_split8.py to ssd_predict_show_split8.cpython-36.pyc
+[0.914s] running install_data
+[0.916s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ament_index
+[0.916s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ament_index/resource_index
+[0.916s] creating /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ament_index/resource_index/packages
+[0.916s] copying resource/ssd_detection -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ament_index/resource_index/packages
+[0.916s] copying package.xml -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection
+[0.916s] running install_egg_info
+[0.919s] Copying ../../build/ssd_detection/ssd_detection.egg-info to /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages/ssd_detection-0.0.0-py3.6.egg-info
+[0.919s] running install_scripts
+[0.935s] Installing ssd_detection script to /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/ssd_detection
+[0.936s] writing list of installed files to '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/install.log'
+[0.962s] Invoked command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection' returned '0': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/install.log --single-version-externally-managed

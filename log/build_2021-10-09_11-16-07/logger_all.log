@@ -1,0 +1,182 @@
+[0.542s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.542s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0ca296a940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0ca296a940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0ca296ac88>)
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.556s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/mb1ssd_detection) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mb1ssd_detection' with type 'ros.ament_python' and name 'mb1ssd_detection'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ssd_detection) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ssd_detection' with type 'ros.ament_python' and name 'ssd_detection'
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'mb1ssd_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'mb1ssd_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection', 'merge_install': False, 'path': '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'ssd_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'ssd_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection', 'merge_install': False, 'path': '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection', 'symlink_install': False, 'test_result_base': None}
+[0.649s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.653s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection' with build type 'ament_python'
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('mb1ssd_detection', 'ament_prefix_path')
+[0.660s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/hook/ament_prefix_path.ps1'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/hook/ament_prefix_path.dsv'
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/hook/ament_prefix_path.sh'
+[0.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.687s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/seniorcar/ros_ws/devel'
+[0.687s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.691s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection' with build type 'ament_python'
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_detection', 'ament_prefix_path')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/hook/ament_prefix_path.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/hook/ament_prefix_path.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/hook/ament_prefix_path.sh'
+[0.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.713s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/seniorcar/ros_ws/devel'
+[0.713s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.217s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection'
+[1.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.232s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/seniorcar/ros_ws/devel'
+[1.232s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.708s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection'
+[1.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.724s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.724s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/seniorcar/ros_ws/devel'
+[1.724s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[1.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log --single-version-externally-managed
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/install.log --single-version-externally-managed
+[2.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection' returned '0': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log --single-version-externally-managed
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection' for CMake module files
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection' for CMake config files
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/bin'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/pkgconfig/mb1ssd_detection.pc'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages'
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('mb1ssd_detection', 'pythonpath')
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/hook/pythonpath.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/hook/pythonpath.dsv'
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/hook/pythonpath.sh'
+[2.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mb1ssd_detection)
+[2.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/package.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/package.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/package.sh'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/package.bash'
+[2.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/mb1ssd_detection/package.zsh'
+[2.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/share/colcon-core/packages/mb1ssd_detection)
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection' for CMake module files
+[2.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/ssd_detection' returned '0': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/ssd_detection/install.log --single-version-externally-managed
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection' for CMake config files
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib'
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/bin'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/pkgconfig/ssd_detection.pc'
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/lib/python3.6/site-packages'
+[2.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('ssd_detection', 'pythonpath')
+[2.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/hook/pythonpath.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/hook/pythonpath.dsv'
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/hook/pythonpath.sh'
+[2.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ssd_detection)
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/package.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/package.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/package.sh'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/package.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/ssd_detection/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/ssd_detection/share/colcon-core/packages/ssd_detection)
+[2.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.324s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.340s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.355s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.356s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/local_setup.ps1'
+[2.358s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/_local_setup_util_ps1.py'
+[2.359s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/setup.ps1'
+[2.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/local_setup.sh'
+[2.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/_local_setup_util_sh.py'
+[2.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/setup.sh'
+[2.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/local_setup.bash'
+[2.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/setup.bash'
+[2.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/local_setup.zsh'
+[2.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/setup.zsh'

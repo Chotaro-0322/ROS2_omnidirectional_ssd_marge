@@ -1,0 +1,28 @@
+[1.038s] Invoking command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log --single-version-externally-managed
+[1.402s] /home/seniorcar/.local/lib/python3.6/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.402s]   % (opt, underscore_opt)
+[1.402s] /home/seniorcar/.local/lib/python3.6/site-packages/setuptools/dist.py:720: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.403s]   % (opt, underscore_opt)
+[1.443s] running egg_info
+[1.445s] writing ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/PKG-INFO
+[1.446s] writing dependency_links to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/dependency_links.txt
+[1.446s] writing entry points to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/entry_points.txt
+[1.446s] writing requirements to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/requires.txt
+[1.446s] writing top-level names to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/top_level.txt
+[1.449s] reading manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+[1.452s] writing manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+[1.452s] running build
+[1.452s] running build_py
+[1.452s] copying mb1ssd_detection/ros2_img_detection.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build/lib/mb1ssd_detection
+[1.454s] running install
+[1.454s] running install_lib
+[1.456s] copying /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build/lib/mb1ssd_detection/ros2_img_detection.py -> /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+[1.457s] byte-compiling /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/ros2_img_detection.py to ros2_img_detection.cpython-36.pyc
+[1.460s] running install_data
+[1.461s] running install_egg_info
+[1.464s] removing '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info' (and everything under it)
+[1.465s] Copying ../../build/mb1ssd_detection/mb1ssd_detection.egg-info to /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info
+[1.466s] running install_scripts
+[1.496s] Installing mb1ssd_detection script to /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/mb1ssd_detection
+[1.496s] writing list of installed files to '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log'
+[1.548s] Invoked command in '/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection' returned '0': PYTHONPATH=/home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/build install --prefix /home/seniorcar/Desktop/Yamamoto/ROS2_detection/install/mb1ssd_detection --record /home/seniorcar/Desktop/Yamamoto/ROS2_detection/build/mb1ssd_detection/install.log --single-version-externally-managed
