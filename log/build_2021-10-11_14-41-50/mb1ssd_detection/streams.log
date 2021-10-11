@@ -1,0 +1,24 @@
+[0.660s] Invoking command in '/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/src/mb1ssd_detection': PYTHONPATH=/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build install --prefix /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection --record /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/install.log --single-version-externally-managed
+[0.953s] running egg_info
+[0.953s] writing ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/PKG-INFO
+[0.953s] writing dependency_links to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/dependency_links.txt
+[0.954s] writing entry points to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/entry_points.txt
+[0.954s] writing requirements to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/requires.txt
+[0.954s] writing top-level names to ../../build/mb1ssd_detection/mb1ssd_detection.egg-info/top_level.txt
+[0.989s] reading manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+[0.991s] writing manifest file '../../build/mb1ssd_detection/mb1ssd_detection.egg-info/SOURCES.txt'
+[0.991s] running build
+[0.991s] running build_py
+[0.991s] copying mb1ssd_detection/ros2_img_detection.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection
+[0.992s] running install
+[0.992s] running install_lib
+[0.993s] copying /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build/lib/mb1ssd_detection/ros2_img_detection.py -> /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection
+[0.994s] byte-compiling /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection/ros2_img_detection.py to ros2_img_detection.cpython-36.pyc
+[0.995s] running install_data
+[0.996s] running install_egg_info
+[0.998s] removing '/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info' (and everything under it)
+[0.998s] Copying ../../build/mb1ssd_detection/mb1ssd_detection.egg-info to /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages/mb1ssd_detection-0.0.0-py3.6.egg-info
+[1.025s] running install_scripts
+[1.042s] Installing mb1ssd_detection script to /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/mb1ssd_detection
+[1.043s] writing list of installed files to '/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/install.log'
+[1.063s] Invoked command in '/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/src/mb1ssd_detection' returned '0': PYTHONPATH=/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mb1ssd_detection build --build-base /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/build install --prefix /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/install/mb1ssd_detection --record /home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/build/mb1ssd_detection/install.log --single-version-externally-managed

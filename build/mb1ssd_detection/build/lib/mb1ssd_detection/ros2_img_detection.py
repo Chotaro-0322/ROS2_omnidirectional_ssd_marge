@@ -11,7 +11,7 @@ import time
 from cv_bridge import CvBridge
 from rclpy.node import Node
 from sensor_msgs.msg import Image, CompressedImage
-from std_msgs.msg import Float32MultiArray
+from std_msgs.msg import Float32MultiArray, MultiArrayDimension
 
 import numpy as np
 import torch
@@ -42,7 +42,7 @@ class Object_Detection(Node):
         self.net.eval()
         self.net.to(torch.device("cuda:0"))
 
-        net_weights = torch.load("/home/seniorcar/Desktop/Yamamoto/ROS2_detection/src/mb1ssd_detection/mb1ssd_detection/weight/mb1-ssd-complete3.pth",
+        net_weights = torch.load("/home/itolab-chotaro/HDD/Python/ROS2_omnidirectional_ssd_marge/src/mb1ssd_detection/mb1ssd_detection/weight/mb1-ssd-complete3.pth",
                                 map_location={'cuda:0': 'cpu'})
 
         self.net.load_state_dict(net_weights)
@@ -75,21 +75,31 @@ class Object_Detection(Node):
         for box in bbox:
             if len(box) != 0:
                 for bx in box:
-                    bbox_sort.append([float(b) for b in bx ])
-        print("bbox_sort : ", bbox_sort)
+                    bbox_sort.append(bx)
+        bbox_dim1 = []
+        for box in bbox_sort:
+            for bx in box:
+                bbox_dim1.append(bx)
 
-        # 空のリスト部分を削除
-        # bbox = [[float(bbox[y][x]) for x in range(len(bbox[y]))] for y in range(len(bbox)) if len(bbox[y]) != 0]
-        # for y in range(len(bbox)):
-        #     if len(bbox[y]) != 0:
-        #         for x in range(len(bbox[y])):
-        #             print("bbox[y][x] : ", bbox[y][x])
-        #print("bbox is ", bbox)
-        # msgに格納
-        self._box_msg.data = bbox_sort
+        print("bbox_sort : ", bbox_sort)
+        if bbox_sort:
+            # msgに格納
+            self._box_msg.data = bbox_dim1
+            dim0 = MultiArrayDimension()
+            dim0.label = "foo"
+            dim0.size = len(bbox_sort)
+            dim0.stride = len(self._box_msg.data)
+            dim1 = MultiArrayDimension()
+            dim1.label = "bar"
+            dim1.size = len(bbox_sort[0])
+            dim1.stride = dim1.size
+
+            self._box_msg.layout.dim = [dim0, dim1]
+        
+            self._coord_pub.publish(self._box_msg)
+
         # print("complete_img : ", complete_img.shape)
         self._image_pub.publish(self._bridge.cv2_to_imgmsg(complete_img, "bgr8"))
-        #self._coord_pub.publish(self._box_msg)
         pub_end = time.time()
 
     def detection(self, img, only_front=True):
@@ -134,19 +144,26 @@ class Object_Detection(Node):
         print(type(img))
         # print("img is ", img)
         if only_front == True:
+            print("width :", width)
             print("boxes_list : ", boxes_list)
             for i, boxes in enumerate(boxes_list):
                 print("boxes is ", boxes)
                 if boxes and i == 0:
-                    for box in boxes:
+                    for p, box in enumerate(boxes):
                         img = cv2.rectangle(img, (np.int(box[0] + 1 * width/4), np.int(box[1])), (np.int(box[2] + 1 * width/4), np.int(box[3])), (255, 0, 0), 5)
+                        boxes_list[i][p][0] += 1*width/4
+                        boxes_list[i][p][2] += 1*width/4
                 elif boxes and i == 1:
-                    for box in boxes:
+                    for p, box in enumerate(boxes):
                         img = cv2.rectangle(img, (np.int(box[0] + 2 * width/4), np.int(box[1])), (np.int(box[2] + 2 * width/4), np.int(box[3])), (255, 0, 0), 5)
+                        boxes_list[i][p][0] += 2*width/4
+                        boxes_list[i][p][2] += 2*width/4
+            print("boxes_list after : ", boxes_list)
+
         else:
             for i, boxes in enumerate(boxes_list):
                     img = cv2.rectangle(img, (np.int(boxes[0] + i * width/4), np.int(boxes[1])), (np.int(boxes[2] + i * width/4), np.int(boxes[3])), (255, 0, 0), 5)
-        return img
+        return img, boxes_list
 
 
 
@@ -155,6 +172,6 @@ class Object_Detection(Node):
         img, score, prediction_bbox = self.detection(img)
         # print("score is ", score.size())
         # print("predictbox is ", prediction_bbox.size())
-        img = self.get_coord(img, prediction_bbox, only_front=only_front)
+        img, prediction_bbox = self.get_coord(img, prediction_bbox, only_front=only_front)
         print("img : ", img.shape)
         return img, prediction_bbox
